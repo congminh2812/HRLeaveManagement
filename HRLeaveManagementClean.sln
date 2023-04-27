@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33209.295
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2E0F4644-A76F-4D80-B362-91D703A84048}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{3364D83A-D97F-4459-9A79-9BC520623710}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{CF5CD7D6-B04B-4EEB-9FF1-FFB576339700}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{2F5FD037-1DD0-4E63-87EE-C4E9F92E2F46}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{29A77E49-13F9-40DC-B695-FE3A8C916F82}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{2AE75769-CAC7-40A1-A4D6-DA5D79F0667E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRLeaveManagement.Domain", "HRLeaveManagement.Domain\HRLeaveManagement.Domain.csproj", "{B8447072-9AC4-459A-8A74-BD49C860FC19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8447072-9AC4-459A-8A74-BD49C860FC19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8447072-9AC4-459A-8A74-BD49C860FC19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8447072-9AC4-459A-8A74-BD49C860FC19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8447072-9AC4-459A-8A74-BD49C860FC19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CF5CD7D6-B04B-4EEB-9FF1-FFB576339700} = {2E0F4644-A76F-4D80-B362-91D703A84048}
+		{2F5FD037-1DD0-4E63-87EE-C4E9F92E2F46} = {2E0F4644-A76F-4D80-B362-91D703A84048}
+		{29A77E49-13F9-40DC-B695-FE3A8C916F82} = {2E0F4644-A76F-4D80-B362-91D703A84048}
+		{2AE75769-CAC7-40A1-A4D6-DA5D79F0667E} = {2E0F4644-A76F-4D80-B362-91D703A84048}
+		{B8447072-9AC4-459A-8A74-BD49C860FC19} = {29A77E49-13F9-40DC-B695-FE3A8C916F82}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03ADB416-BFC8-4568-AB86-D9857476FA97}
+	EndGlobalSection
+EndGlobal
