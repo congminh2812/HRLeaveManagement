@@ -6,6 +6,7 @@ namespace HRLeaveManagement.Domain
     public class LeaveAllocation : BaseEntity
     {
         public int NumberOfDays { get; set; }
+        public string EmployeeId { get; set; } = string.Empty;
 
         [ForeignKey("LeaveTypeId")]
         public LeaveType? LeaveType { get; set; }
