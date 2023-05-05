@@ -13,7 +13,7 @@ namespace HRLeaveManagement.Persistence.Repositories
 
         public async Task<bool> IsLeaveTypeUnique(string name)
         {
-            return await _context.LeaveTypes.AnyAsync(s => s.Name == name);
+            return !(await _context.LeaveTypes.AnyAsync(s => s.Name == name));
         }
     }
 }
